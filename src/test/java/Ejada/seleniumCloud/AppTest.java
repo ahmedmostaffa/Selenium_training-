@@ -61,7 +61,7 @@ public class AppTest {
 		// assert or check the JavaScript for beginners is visible 
 		Assert.assertTrue( driver.findElement(By.xpath("//*[@data-zd='zen_cs_desc_promo_title_dynamic']")).isDisplayed());
 		/* Not a good programming practice, added for demonstration */
-		Thread.sleep(5000);
+		//Thread.sleep(5000);
 	}
 	
 	
