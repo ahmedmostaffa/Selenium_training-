@@ -46,22 +46,22 @@ public class LoginTest {
 		}
     	// load login page 
 		driver.manage().window().maximize();
-		driver.navigate().to("https://courses.letskodeit.com/practice");
+		driver.navigate().to("https://www.saucedemo.com/");
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
     	
 	}
 	
-	@Test(description="handle iframe  ")
+	@Test(description="login with valid credentials ")
 	public void loginValidInput() throws InterruptedException {
 		
 		
 		driver.findElement(By.cssSelector("input#user-name")).sendKeys("standard_user");
 		driver.findElement(By.cssSelector("input#password")).sendKeys("secret_sauce"+Keys.RETURN);
-		
+		//Thread.sleep(3000);
 		// assert or check the JavaScript for beginners is visible 
 		String pageHeader=driver.findElement(By.cssSelector("span.title")).getText();
 		
-		Assert.assertEquals("Products", pageHeader);
+		Assert.assertEquals("PRODUCTS", pageHeader);
 		/* Not a good programming practice, added for demonstration */
 		//Thread.sleep(5000);
 	}

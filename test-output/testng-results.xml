@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-11T10:09:32 EET" name="Default suite" finished-at="2022-08-11T10:09:37 EET" duration-ms="5532">
+    <groups>
+    </groups>
+    <test started-at="2022-08-11T10:09:32 EET" name="Default test" finished-at="2022-08-11T10:09:37 EET" duration-ms="5532">
+      <class name="Ejada.seleniumCloud.LoginTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:Ejada.seleniumCloud.LoginTest@5158b42f]" started-at="2022-08-11T10:09:32 EET" name="SetUp" finished-at="2022-08-11T10:09:36 EET" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="loginValidInput()[pri:0, instance:Ejada.seleniumCloud.LoginTest@5158b42f]" started-at="2022-08-11T10:09:36 EET" name="loginValidInput" description="handle iframe  " finished-at="2022-08-11T10:09:37 EET" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ejada.seleniumCloud.LoginTest@5158b42f]" started-at="2022-08-11T10:09:37 EET" name="tearDown" finished-at="2022-08-11T10:09:37 EET" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ejada.seleniumCloud.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
