@@ -22,8 +22,9 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
-public class AppTest {
+public class LoginTest {
 	public static WebDriver driver;
 
 	
@@ -51,15 +52,16 @@ public class AppTest {
 	}
 	
 	@Test(description="handle iframe  ")
-	public void test() throws InterruptedException {
+	public void loginValidInput() throws InterruptedException {
 		
-
-	
-		driver.switchTo().frame(0);
-		driver.findElement(By.cssSelector("div.zen-course-list>a")).click(); 
+		
+		driver.findElement(By.cssSelector("input#user-name")).sendKeys("standard_user");
+		driver.findElement(By.cssSelector("input#password")).sendKeys("secret_sauce"+Keys.RETURN);
 		
 		// assert or check the JavaScript for beginners is visible 
-		//Assert.assertTrue( driver.findElement(By.xpath("//*[@data-zd='zen_cs_desc_promo_title_dynamic']")).isDisplayed());
+		String pageHeader=driver.findElement(By.cssSelector("span.title")).getText();
+		
+		Assert.assertEquals("Products", pageHeader);
 		/* Not a good programming practice, added for demonstration */
 		//Thread.sleep(5000);
 	}
