@@ -57,13 +57,14 @@ public class LoginTest {
 		
 		driver.findElement(By.cssSelector("input#user-name")).sendKeys("standard_user");
 		driver.findElement(By.cssSelector("input#password")).sendKeys("secret_sauce"+Keys.RETURN);
+		/* Not a good programming practice, added for demonstration */
 		//Thread.sleep(3000);
 		// assert or check the JavaScript for beginners is visible 
 		String pageHeader=driver.findElement(By.cssSelector("span.title")).getText();
 		
 		Assert.assertEquals("PRODUCTS", pageHeader);
-		/* Not a good programming practice, added for demonstration */
-		//Thread.sleep(5000);
+		
+		
 	}
 	
 	
