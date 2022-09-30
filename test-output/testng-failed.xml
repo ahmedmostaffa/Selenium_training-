@@ -5,8 +5,6 @@
     <classes>
       <class name="Ejada.seleniumCloud.LoginTest">
         <methods>
-          <include name="loginValidInput"/>
-          <include name="tearDown"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- Ejada.seleniumCloud.LoginTest -->

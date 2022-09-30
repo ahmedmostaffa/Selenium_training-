@@ -1,0 +1,108 @@
+{
+  "uid" : "84959cdb259e4ea7",
+  "name" : "SetUp",
+  "fullName" : "base.BaseTest.SetUp",
+  "historyId" : "4439509b1995757ede0be89069dde956",
+  "time" : {
+    "start" : 1660657481117,
+    "stop" : 1660657481122,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot invoke \"com.applitools.eyes.selenium.Eyes.setApiKey(String)\" because \"base.BaseTest.eyes\" is null",
+  "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"com.applitools.eyes.selenium.Eyes.setApiKey(String)\" because \"base.BaseTest.eyes\" is null\r\n\tat base.BaseTest.initializeEyes(BaseTest.java:46)\r\n\tat base.BaseTest.SetUp(BaseTest.java:29)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)\r\n\tat org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)\r\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:632)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:433)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1660657471650,
+      "stop" : 1660657481049,
+      "duration" : 9399
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Cannot invoke \"com.applitools.eyes.selenium.Eyes.setApiKey(String)\" because \"base.BaseTest.eyes\" is null",
+    "statusTrace" : "java.lang.NullPointerException: Cannot invoke \"com.applitools.eyes.selenium.Eyes.setApiKey(String)\" because \"base.BaseTest.eyes\" is null\r\n\tat base.BaseTest.initializeEyes(BaseTest.java:46)\r\n\tat base.BaseTest.SetUp(BaseTest.java:29)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)\r\n\tat org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)\r\n\tat org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:643)\r\n\tat org.testng.TestRunner.beforeRun(TestRunner.java:632)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:433)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1660657481362,
+      "stop" : 1660657481362,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.DemoApplitools"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.DemoApplitools"
+  }, {
+    "name" : "testMethod",
+    "value" : "SetUp"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.DemoApplitools"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "24560@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "AS_ID",
+    "value" : "-1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "84959cdb259e4ea7.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,132 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot invoke \"com.applitools.eyes.selenium.Eyes.setApiKey(String)\" because \"base.BaseTest.eyes\" is null",
+      "children" : [ {
+        "name" : "SetUp",
+        "uid" : "84959cdb259e4ea7",
+        "parentUid" : "3565d5bc5fb806c8e98706c38cd30b3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660657481117,
+          "stop" : 1660657481122,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "3565d5bc5fb806c8e98706c38cd30b3d"
+    }, {
+      "name" : "Unable to find element with locator By.id: username\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.3.0', revision: 'a4995e2c09*'\nSystem info: host: 'LPCAIQ0797', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "e9823f7d898d8a88",
+        "parentUid" : "05450909e92459d927290aea2e778389",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661099891468,
+          "stop" : 1661099894242,
+          "duration" : 2774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05450909e92459d927290aea2e778389"
+    }, {
+      "name" : "The condition to evaluate should not be null",
+      "children" : [ {
+        "name" : "AssertJ",
+        "uid" : "b38dd0350de2cec7",
+        "parentUid" : "6bd459c57865f965e02e749f9ad0ed1f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661175613922,
+          "stop" : 1661175613975,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bd459c57865f965e02e749f9ad0ed1f"
+    }, {
+      "name" : "script timeout\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.3.0', revision: 'a4995e2c09*'\nSystem info: host: 'LPCAIQ0797', ip: '192.168.9.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4de7ec76bfbb0c5143bf868ebc0b7d3e, executeAsyncScript {script=return document.readyState;, args=[]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\AMMABR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57431/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4de7ec76bfbb0c5143bf868ebc0b7d3e",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "54db8b6648bc1094",
+        "parentUid" : "19c6d2f9ed08bec3db929857ef56be2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661249328486,
+          "stop" : 1661249365448,
+          "duration" : 36962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19c6d2f9ed08bec3db929857ef56be2d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Test 'verification test for content level' of 'demo app' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251741561169466/00000251741561169310?accountId=OrRbYTxii0_d1UlUlImjOQ__",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "8daed43add34e691",
+        "parentUid" : "508b76f8d8274234c43cd929fc2a83a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660739626538,
+          "stop" : 1660739652645,
+          "duration" : 26107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "508b76f8d8274234c43cd929fc2a83a2"
+    }, {
+      "name" : "Test 'verification test for content level' of 'demo app' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251741299148311/00000251741299148202?accountId=OrRbYTxii0_d1UlUlImjOQ__",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "1066848d9ecbafee",
+        "parentUid" : "843162daec2bd0a6a50f0e78813ec2c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661001646708,
+          "stop" : 1661001675977,
+          "duration" : 29269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "843162daec2bd0a6a50f0e78813ec2c1"
+    }, {
+      "name" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "children" : [ {
+        "name" : "softAssertion",
+        "uid" : "d9b064c0e4df6803",
+        "parentUid" : "e35a41414b42be119df5606611735d01",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661175614050,
+          "stop" : 1661175614060,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e35a41414b42be119df5606611735d01"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

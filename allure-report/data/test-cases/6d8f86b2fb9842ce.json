@@ -1,0 +1,121 @@
+{
+  "uid" : "6d8f86b2fb9842ce",
+  "name" : "open_test",
+  "fullName" : "Ejada.seleniumCloud.Test_1.open_test",
+  "historyId" : "f67db7ae7ae20f09dcbd71d4c877dbd0",
+  "time" : {
+    "start" : 1661104685204,
+    "stop" : 1661104685408,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1661104676877,
+      "stop" : 1661104685109,
+      "duration" : 8232
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.Test_1"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.Test_1"
+  }, {
+    "name" : "testMethod",
+    "value" : "open_test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.Test_1"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "12624@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a664bdf60e7418d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661100892689,
+        "stop" : 1661100892933,
+        "duration" : 244
+      }
+    }, {
+      "uid" : "f5be9d997d1dfd6b",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"ElementActions.OpenLinkNewTab.driver\" is null",
+      "time" : {
+        "start" : 1661100839421,
+        "stop" : 1661100839433,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "32a62c50466874d2",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"ElementActions.OpenLinkNewTab.driver\" is null",
+      "time" : {
+        "start" : 1661100800665,
+        "stop" : 1661100800678,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "fc33be38c37d64c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661100538666,
+        "stop" : 1661100538831,
+        "duration" : 165
+      }
+    }, {
+      "uid" : "fac009b7e3593d54",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"ElementActions.OpenLinkNewTab.driver\" is null",
+      "time" : {
+        "start" : 1661100432371,
+        "stop" : 1661100432389,
+        "duration" : 18
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d8f86b2fb9842ce.json",
+  "parameterValues" : [ ]
+}

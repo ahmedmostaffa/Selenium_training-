@@ -1,0 +1,60 @@
+{
+  "uid" : "1829c1f208def212",
+  "name" : "testLazyLoading",
+  "fullName" : "Ejada.seleniumCloud.TestLazyLoading.testLazyLoading",
+  "historyId" : "9fe14d517c75697d0a6c538b404931cd",
+  "time" : {
+    "start" : 1661511532105,
+    "stop" : 1661511541562,
+    "duration" : 9457
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.TestLazyLoading"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.TestLazyLoading"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLazyLoading"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.TestLazyLoading"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "16336@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1829c1f208def212.json",
+  "parameterValues" : [ ]
+}

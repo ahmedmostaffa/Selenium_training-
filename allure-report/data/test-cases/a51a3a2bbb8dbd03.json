@@ -1,0 +1,92 @@
+{
+  "uid" : "a51a3a2bbb8dbd03",
+  "name" : "login with valid credentials ",
+  "fullName" : "Ejada.seleniumCloud.LoginTest.loginValidInput",
+  "historyId" : "3b103faf7abfbb827cf227713e5cff30",
+  "time" : {
+    "start" : 1661072382079,
+    "stop" : 1661072382393,
+    "duration" : 314
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1661072379189,
+      "stop" : 1661072382009,
+      "duration" : 2820
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1661072382404,
+      "stop" : 1661072382692,
+      "duration" : 288
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginValidInput"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "11008@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a51a3a2bbb8dbd03.json",
+  "parameterValues" : [ ]
+}

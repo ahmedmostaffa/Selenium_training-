@@ -1,0 +1,121 @@
+[ {
+  "uid" : "56f04d2b6c9e041c",
+  "name" : "testLazyLoading",
+  "time" : {
+    "start" : 1661511558339,
+    "stop" : 1661511566287,
+    "duration" : 7948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b38dd0350de2cec7",
+  "name" : "AssertJ",
+  "time" : {
+    "start" : 1661175613922,
+    "stop" : 1661175613975,
+    "duration" : 53
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54db8b6648bc1094",
+  "name" : "test",
+  "time" : {
+    "start" : 1661249328486,
+    "stop" : 1661249365448,
+    "duration" : 36962
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "61e6aa28d9f475ff",
+  "name" : "login with valid credentials ",
+  "time" : {
+    "start" : 1661778840663,
+    "stop" : 1661778843372,
+    "duration" : 2709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a18f337e67ece031",
+  "name" : "arrayMatchTest",
+  "time" : {
+    "start" : 1661175614031,
+    "stop" : 1661175614037,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1066848d9ecbafee",
+  "name" : "verificationTest",
+  "time" : {
+    "start" : 1661001646708,
+    "stop" : 1661001675977,
+    "duration" : 29269
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d96d9d697d551b8",
+  "name" : "matchTest",
+  "time" : {
+    "start" : 1661175614043,
+    "stop" : 1661175614045,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84959cdb259e4ea7",
+  "name" : "SetUp",
+  "time" : {
+    "start" : 1660657481117,
+    "stop" : 1660657481122,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d9b064c0e4df6803",
+  "name" : "softAssertion",
+  "time" : {
+    "start" : 1661175614050,
+    "stop" : 1661175614060,
+    "duration" : 10
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8daed43add34e691",
+  "name" : "verificationTest",
+  "time" : {
+    "start" : 1660739626538,
+    "stop" : 1660739652645,
+    "duration" : 26107
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d8f86b2fb9842ce",
+  "name" : "open_test",
+  "time" : {
+    "start" : 1661104685204,
+    "stop" : 1661104685408,
+    "duration" : 204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9823f7d898d8a88",
+  "name" : "verificationTest",
+  "time" : {
+    "start" : 1661099891468,
+    "stop" : 1661099894242,
+    "duration" : 2774
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

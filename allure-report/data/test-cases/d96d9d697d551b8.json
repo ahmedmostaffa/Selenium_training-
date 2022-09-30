@@ -1,0 +1,216 @@
+{
+  "uid" : "d96d9d697d551b8",
+  "name" : "matchTest",
+  "fullName" : "Ejada.seleniumCloud.practice.matchTest",
+  "historyId" : "d9f1a4bf09dbb248aed4e1db12b31b38",
+  "time" : {
+    "start" : 1661175614043,
+    "stop" : 1661175614045,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "matchTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "760@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a61924dfcf22221",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661168657636,
+        "stop" : 1661168657640,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "83d55e400755fbba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661166574419,
+        "stop" : 1661166574422,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "1cce7cbf88cfec2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661160847626,
+        "stop" : 1661160847628,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "85089ecca3c63c23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661160707765,
+        "stop" : 1661160707766,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5b1889670f642344",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661160685645,
+        "stop" : 1661160685647,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "47f71ad5924b956c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661082418573,
+        "stop" : 1661082418575,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "6b07cfdf6db3afea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661082405951,
+        "stop" : 1661082405953,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "79710c99775ad45f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661080913805,
+        "stop" : 1661080913808,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "75adb9f4f8ef7c08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661080603043,
+        "stop" : 1661080603045,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8114703b5bee48d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661080461539,
+        "stop" : 1661080461542,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "544174ec9ca4e88b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661079634518,
+        "stop" : 1661079634523,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "90755d6a1c16bae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661079605594,
+        "stop" : 1661079605599,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "8f842d1d0cd6b4f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661079586743,
+        "stop" : 1661079586747,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "651c2fccf8c3fc3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661079218506,
+        "stop" : 1661079218510,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "68515c512d2f3a7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661078931361,
+        "stop" : 1661078931365,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "55b2de0008f42414",
+      "status" : "broken",
+      "statusDetails" : "Unresolved compilation problem: \n\tSyntax error on token \"+\", ++ expected\n",
+      "time" : {
+        "start" : 1661074549989,
+        "stop" : 1661074549999,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "b3112cb99f86b159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661074497872,
+        "stop" : 1661074497889,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "e7cba0f341591a98",
+      "status" : "failed",
+      "statusDetails" : "\nExpected: (a string starting with \"my\" and a string containing \"Val\")\n     but: a string starting with \"my\" was \"ejdacoretestautomation\"",
+      "time" : {
+        "start" : 1661074238009,
+        "stop" : 1661074238030,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "87f3bc8105a31e1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661074148719,
+        "stop" : 1661074148733,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d96d9d697d551b8.json",
+  "parameterValues" : [ ]
+}

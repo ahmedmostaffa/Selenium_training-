@@ -1,0 +1,231 @@
+{
+  "uid" : "61e6aa28d9f475ff",
+  "name" : "login with valid credentials ",
+  "fullName" : "Ejada.seleniumCloud.LoginTest.loginValidInput",
+  "historyId" : "3b103faf7abfbb827cf227713e5cff30",
+  "time" : {
+    "start" : 1661778840663,
+    "stop" : 1661778843372,
+    "duration" : 2709
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1661778835533,
+      "stop" : 1661778840539,
+      "duration" : 5006
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1661778843383,
+      "stop" : 1661778844382,
+      "duration" : 999
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginValidInput"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "38596@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b352e1dd77f6043d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661778576237,
+        "stop" : 1661778579535,
+        "duration" : 3298
+      }
+    }, {
+      "uid" : "56447da5d3e5fa95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661439240123,
+        "stop" : 1661439243264,
+        "duration" : 3141
+      }
+    }, {
+      "uid" : "aa38c9f5bfd59649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661439181747,
+        "stop" : 1661439184753,
+        "duration" : 3006
+      }
+    }, {
+      "uid" : "652e0998c84440bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661438823235,
+        "stop" : 1661438826211,
+        "duration" : 2976
+      }
+    }, {
+      "uid" : "6f4711d9219beff6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661438776450,
+        "stop" : 1661438779229,
+        "duration" : 2779
+      }
+    }, {
+      "uid" : "bdb4ac81a5eeb40b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661438414129,
+        "stop" : 1661438417341,
+        "duration" : 3212
+      }
+    }, {
+      "uid" : "19af0e4a45dc8b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661437858267,
+        "stop" : 1661437860799,
+        "duration" : 2532
+      }
+    }, {
+      "uid" : "5a921060860eccea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661437778228,
+        "stop" : 1661437778989,
+        "duration" : 761
+      }
+    }, {
+      "uid" : "d3001cb8b8756d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661098397593,
+        "stop" : 1661098398202,
+        "duration" : 609
+      }
+    }, {
+      "uid" : "2eedd213be902b2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661098336933,
+        "stop" : 1661098337482,
+        "duration" : 549
+      }
+    }, {
+      "uid" : "532aea5d56e5516c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661098298144,
+        "stop" : 1661098298628,
+        "duration" : 484
+      }
+    }, {
+      "uid" : "a57062e7f6a9594f",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.cssSelector: input#user-name\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.3.0', revision: 'a4995e2c09*'\nSystem info: host: 'LPCAIQ0797', ip: '192.168.9.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1661083223228,
+        "stop" : 1661083223269,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "949f24d144506ab5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661082678085,
+        "stop" : 1661082678433,
+        "duration" : 348
+      }
+    }, {
+      "uid" : "f7e7c8a5879caa91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661072772572,
+        "stop" : 1661072772818,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "a51a3a2bbb8dbd03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661072382079,
+        "stop" : 1661072382393,
+        "duration" : 314
+      }
+    }, {
+      "uid" : "2398a6bad6178c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661072371582,
+        "stop" : 1661072371883,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "c4ae2205d3abbe6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661072347496,
+        "stop" : 1661072347874,
+        "duration" : 378
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "61e6aa28d9f475ff.json",
+  "parameterValues" : [ ]
+}

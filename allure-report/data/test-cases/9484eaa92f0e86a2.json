@@ -1,0 +1,60 @@
+{
+  "uid" : "9484eaa92f0e86a2",
+  "name" : "softAssertion",
+  "fullName" : "Ejada.seleniumCloud.practice.softAssertion",
+  "historyId" : "86d013ff102bc6e6146aa2ab24ef4b5c",
+  "time" : {
+    "start" : 1661079605606,
+    "stop" : 1661079605621,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "softAssertion"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "19900@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9484eaa92f0e86a2.json",
+  "parameterValues" : [ ]
+}

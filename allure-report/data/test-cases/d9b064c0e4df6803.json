@@ -1,0 +1,181 @@
+{
+  "uid" : "d9b064c0e4df6803",
+  "name" : "softAssertion",
+  "fullName" : "Ejada.seleniumCloud.practice.softAssertion",
+  "historyId" : "86d013ff102bc6e6146aa2ab24ef4b5c",
+  "time" : {
+    "start" : 1661175614050,
+    "stop" : 1661175614060,
+    "duration" : 10
+  },
+  "status" : "failed",
+  "statusMessage" : "The following asserts failed:\n\texpected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: The following asserts failed:\n\texpected [false] but found [true]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)\r\n\tat Ejada.seleniumCloud.practice.softAssertion(practice.java:46)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:806)\r\n\tat org.testng.TestRunner.run(TestRunner.java:601)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:433)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "softAssertion"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "760@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e3be40361d797670",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661168657651,
+        "stop" : 1661168657674,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "36f2232917d32216",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661166574431,
+        "stop" : 1661166574450,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "275f9307441d1504",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661160847634,
+        "stop" : 1661160847645,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "a6587eb931110912",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661160707771,
+        "stop" : 1661160707782,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "638e51841ea28395",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661160685654,
+        "stop" : 1661160685667,
+        "duration" : 13
+      }
+    }, {
+      "uid" : "cd53694e1bba54eb",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661082418582,
+        "stop" : 1661082418594,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "94d31f4ec671cd1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661082405958,
+        "stop" : 1661082405968,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "7b0dda9408fc6131",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661080913814,
+        "stop" : 1661080913825,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "1004b1f6632be9c9",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661080603051,
+        "stop" : 1661080603063,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "89e0560482c554b6",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661080461552,
+        "stop" : 1661080461566,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "45813ba0f50925c9",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661079634530,
+        "stop" : 1661079634545,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "9484eaa92f0e86a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661079605606,
+        "stop" : 1661079605621,
+        "duration" : 15
+      }
+    }, {
+      "uid" : "3dc1ae5b9c90a5a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661079586752,
+        "stop" : 1661079586756,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d9b064c0e4df6803.json",
+  "parameterValues" : [ ]
+}

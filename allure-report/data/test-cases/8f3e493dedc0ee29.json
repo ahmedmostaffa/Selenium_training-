@@ -1,0 +1,94 @@
+{
+  "uid" : "8f3e493dedc0ee29",
+  "name" : "verificationTest",
+  "fullName" : "Ejada.seleniumCloud.ContnetMatchLevel.verificationTest",
+  "historyId" : "3de653700ccde8a0a42f9a2335b7d354",
+  "time" : {
+    "start" : 1660661250461,
+    "stop" : 1660661276724,
+    "duration" : 26263
+  },
+  "status" : "broken",
+  "statusMessage" : "chrome not reachable\n  (Session info: chrome=104.0.5112.81)",
+  "statusTrace" : "com.applitools.eyes.EyesException: chrome not reachable\n  (Session info: chrome=104.0.5112.81)\r\n\tat com.applitools.eyes.selenium.CommandExecutor.eyesCheck(CommandExecutor.java:120)\r\n\tat com.applitools.eyes.selenium.Eyes.checkDto(Eyes.java:472)\r\n\tat com.applitools.eyes.selenium.Eyes.check(Eyes.java:455)\r\n\tat com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1340)\r\n\tat com.applitools.eyes.selenium.Eyes.checkWindow(Eyes.java:1331)\r\n\tat base.BaseTest.checkWindow(BaseTest.java:62)\r\n\tat Ejada.seleniumCloud.ContnetMatchLevel.verificationTest(ContnetMatchLevel.java:10)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:577)\r\n\tat org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)\r\n\tat org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)\r\n\tat org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)\r\n\tat org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)\r\n\tat org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)\r\n\tat org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:806)\r\n\tat org.testng.TestRunner.run(TestRunner.java:601)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:433)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:330)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1176)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1099)\r\n\tat org.testng.TestNG.run(TestNG.java:1067)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1660661233731,
+      "stop" : 1660661250361,
+      "duration" : 16630
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1660661276852,
+      "stop" : 1660661281631,
+      "duration" : 4779
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.ContnetMatchLevel"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.ContnetMatchLevel"
+  }, {
+    "name" : "testMethod",
+    "value" : "verificationTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.ContnetMatchLevel"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "33040@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f3e493dedc0ee29.json",
+  "parameterValues" : [ ]
+}

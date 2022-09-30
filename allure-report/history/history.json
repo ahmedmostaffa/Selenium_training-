@@ -1,0 +1,237 @@
+{
+  "86d013ff102bc6e6146aa2ab24ef4b5c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9b064c0e4df6803",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\texpected [false] but found [true]",
+      "time" : {
+        "start" : 1661175614050,
+        "stop" : 1661175614060,
+        "duration" : 10
+      }
+    } ]
+  },
+  "3b103faf7abfbb827cf227713e5cff30" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61e6aa28d9f475ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661778840663,
+        "stop" : 1661778843372,
+        "duration" : 2709
+      }
+    } ]
+  },
+  "f67db7ae7ae20f09dcbd71d4c877dbd0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d8f86b2fb9842ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661104685204,
+        "stop" : 1661104685408,
+        "duration" : 204
+      }
+    } ]
+  },
+  "4439509b1995757ede0be89069dde956" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84959cdb259e4ea7",
+      "status" : "broken",
+      "statusDetails" : "Cannot invoke \"com.applitools.eyes.selenium.Eyes.setApiKey(String)\" because \"base.BaseTest.eyes\" is null",
+      "time" : {
+        "start" : 1660657481117,
+        "stop" : 1660657481122,
+        "duration" : 5
+      }
+    } ]
+  },
+  "a767515a87b8c37da6ec7ba75d77542" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a18f337e67ece031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661175614031,
+        "stop" : 1661175614037,
+        "duration" : 6
+      }
+    } ]
+  },
+  "a62533c54840169a880ed3f84cf087d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9823f7d898d8a88",
+      "status" : "broken",
+      "statusDetails" : "Unable to find element with locator By.id: username\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.3.0', revision: 'a4995e2c09*'\nSystem info: host: 'LPCAIQ0797', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1661099891468,
+        "stop" : 1661099894242,
+        "duration" : 2774
+      }
+    } ]
+  },
+  "d9f1a4bf09dbb248aed4e1db12b31b38" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d96d9d697d551b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661175614043,
+        "stop" : 1661175614045,
+        "duration" : 2
+      }
+    } ]
+  },
+  "3de653700ccde8a0a42f9a2335b7d354" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8daed43add34e691",
+      "status" : "failed",
+      "statusDetails" : "Test 'verification test for content level' of 'demo app' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251741561169466/00000251741561169310?accountId=OrRbYTxii0_d1UlUlImjOQ__",
+      "time" : {
+        "start" : 1660739626538,
+        "stop" : 1660739652645,
+        "duration" : 26107
+      }
+    } ]
+  },
+  "73fe929bf62c6aba83f82df321809e4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b38dd0350de2cec7",
+      "status" : "broken",
+      "statusDetails" : "The condition to evaluate should not be null",
+      "time" : {
+        "start" : 1661175613922,
+        "stop" : 1661175613975,
+        "duration" : 53
+      }
+    } ]
+  },
+  "9fe14d517c75697d0a6c538b404931cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56f04d2b6c9e041c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661511558339,
+        "stop" : 1661511566287,
+        "duration" : 7948
+      }
+    } ]
+  },
+  "f0a0b2dfe51ad9784ec2ef987902d13b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1066848d9ecbafee",
+      "status" : "failed",
+      "statusDetails" : "Test 'verification test for content level' of 'demo app' detected differences! See details at: https://eyes.applitools.com/app/batches/00000251741299148311/00000251741299148202?accountId=OrRbYTxii0_d1UlUlImjOQ__",
+      "time" : {
+        "start" : 1661001646708,
+        "stop" : 1661001675977,
+        "duration" : 29269
+      }
+    } ]
+  },
+  "42c6b6501ddf0e1fa304059b69576e95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54db8b6648bc1094",
+      "status" : "broken",
+      "statusDetails" : "script timeout\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.3.0', revision: 'a4995e2c09*'\nSystem info: host: 'LPCAIQ0797', ip: '192.168.9.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4de7ec76bfbb0c5143bf868ebc0b7d3e, executeAsyncScript {script=return document.readyState;, args=[]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\AMMABR~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:57431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57431/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4de7ec76bfbb0c5143bf868ebc0b7d3e",
+      "time" : {
+        "start" : 1661249328486,
+        "stop" : 1661249365448,
+        "duration" : 36962
+      }
+    } ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "87f3bc8105a31e1d",
+  "name" : "matchTest",
+  "fullName" : "Ejada.seleniumCloud.practice.matchTest",
+  "historyId" : "d9f1a4bf09dbb248aed4e1db12b31b38",
+  "time" : {
+    "start" : 1661074148719,
+    "stop" : 1661074148733,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testClass",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "testMethod",
+    "value" : "matchTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Ejada.seleniumCloud.practice"
+  }, {
+    "name" : "host",
+    "value" : "LPCAIQ0797"
+  }, {
+    "name" : "thread",
+    "value" : "15516@LPCAIQ0797.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87f3bc8105a31e1d.json",
+  "parameterValues" : [ ]
+}

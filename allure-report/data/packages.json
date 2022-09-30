@@ -1,0 +1,197 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Ejada.seleniumCloud",
+    "children" : [ {
+      "name" : "DemoApplitools",
+      "children" : [ {
+        "name" : "SetUp",
+        "uid" : "84959cdb259e4ea7",
+        "parentUid" : "871be8192fde039098a2d21455849bfb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660657481117,
+          "stop" : 1660657481122,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "verificationTest",
+        "uid" : "e9823f7d898d8a88",
+        "parentUid" : "871be8192fde039098a2d21455849bfb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661099891468,
+          "stop" : 1661099894242,
+          "duration" : 2774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "871be8192fde039098a2d21455849bfb"
+    }, {
+      "name" : "ContnetMatchLevel",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "8daed43add34e691",
+        "parentUid" : "15280422136cd5a1d709cddfb91b6be9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660739626538,
+          "stop" : 1660739652645,
+          "duration" : 26107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15280422136cd5a1d709cddfb91b6be9"
+    }, {
+      "name" : "DynamicPage",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "1066848d9ecbafee",
+        "parentUid" : "8b3c7dc7b96d02ec9a3e6e99bc702212",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661001646708,
+          "stop" : 1661001675977,
+          "duration" : 29269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8b3c7dc7b96d02ec9a3e6e99bc702212"
+    }, {
+      "name" : "Test_1",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "6d8f86b2fb9842ce",
+        "parentUid" : "ff9f96f570feda9dbab26877a93668e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661104685204,
+          "stop" : 1661104685408,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff9f96f570feda9dbab26877a93668e7"
+    }, {
+      "name" : "practice",
+      "children" : [ {
+        "name" : "AssertJ",
+        "uid" : "b38dd0350de2cec7",
+        "parentUid" : "24bd0002a844ba9532cf4899d3750115",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661175613922,
+          "stop" : 1661175613975,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "a18f337e67ece031",
+        "parentUid" : "24bd0002a844ba9532cf4899d3750115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661175614031,
+          "stop" : 1661175614037,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "d96d9d697d551b8",
+        "parentUid" : "24bd0002a844ba9532cf4899d3750115",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661175614043,
+          "stop" : 1661175614045,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "d9b064c0e4df6803",
+        "parentUid" : "24bd0002a844ba9532cf4899d3750115",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661175614050,
+          "stop" : 1661175614060,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "24bd0002a844ba9532cf4899d3750115"
+    }, {
+      "name" : "LazyLoading",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "54db8b6648bc1094",
+        "parentUid" : "00488f25915c9fdb032d309aa4d3c337",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661249328486,
+          "stop" : 1661249365448,
+          "duration" : 36962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00488f25915c9fdb032d309aa4d3c337"
+    }, {
+      "name" : "TestLazyLoading",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "56f04d2b6c9e041c",
+        "parentUid" : "570e564a405f353eeaaf0ce647100556",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661511558339,
+          "stop" : 1661511566287,
+          "duration" : 7948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "570e564a405f353eeaaf0ce647100556"
+    }, {
+      "name" : "LoginTest",
+      "children" : [ {
+        "name" : "loginValidInput",
+        "uid" : "61e6aa28d9f475ff",
+        "parentUid" : "939326fa86fc7091056fbcdcc290688e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661778840663,
+          "stop" : 1661778843372,
+          "duration" : 2709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "939326fa86fc7091056fbcdcc290688e"
+    } ],
+    "uid" : "Ejada.seleniumCloud"
+  } ]
+}

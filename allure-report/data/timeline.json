@@ -1,0 +1,2411 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LPCAIQ0797",
+    "children" : [ {
+      "name" : "10432@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "e7cba0f341591a98",
+        "parentUid" : "0ffb421212cc4b01cb4ce3034df07e26",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661074238009,
+          "stop" : 1661074238030,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ffb421212cc4b01cb4ce3034df07e26"
+    }, {
+      "name" : "15204@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "softAssertion",
+        "uid" : "45813ba0f50925c9",
+        "parentUid" : "9c925307b038c016e3d2e631ab6994f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661079634530,
+          "stop" : 1661079634545,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "544174ec9ca4e88b",
+        "parentUid" : "9c925307b038c016e3d2e631ab6994f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079634518,
+          "stop" : 1661079634523,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "cdef761ee60557e",
+        "parentUid" : "9c925307b038c016e3d2e631ab6994f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079634439,
+          "stop" : 1661079634452,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c925307b038c016e3d2e631ab6994f6"
+    }, {
+      "name" : "24560@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "5ffaebef59ce23f1",
+        "parentUid" : "ce3ad6f18684a7ea06d8674d70c2c8b3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1660657481339,
+          "stop" : 1660657481341,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SetUp",
+        "uid" : "84959cdb259e4ea7",
+        "parentUid" : "ce3ad6f18684a7ea06d8674d70c2c8b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660657481117,
+          "stop" : 1660657481122,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "ce3ad6f18684a7ea06d8674d70c2c8b3"
+    }, {
+      "name" : "11304@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "1066848d9ecbafee",
+        "parentUid" : "b4dd8e0a1a20fefa003f127dd0a8481f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661001646708,
+          "stop" : 1661001675977,
+          "duration" : 29269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4dd8e0a1a20fefa003f127dd0a8481f"
+    }, {
+      "name" : "19468@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "arrayMatchTest",
+        "uid" : "ba29bb8950ec4dad",
+        "parentUid" : "20317e95e1ef602c60241231a641e718",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661080602969,
+          "stop" : 1661080602985,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "1004b1f6632be9c9",
+        "parentUid" : "20317e95e1ef602c60241231a641e718",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661080603051,
+          "stop" : 1661080603063,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "75adb9f4f8ef7c08",
+        "parentUid" : "20317e95e1ef602c60241231a641e718",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661080603043,
+          "stop" : 1661080603045,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20317e95e1ef602c60241231a641e718"
+    }, {
+      "name" : "16688@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "AssertJ",
+        "uid" : "e0c18061cd8d9c09",
+        "parentUid" : "3746e6fa53720cb3f7a70ee7895cf104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160685520,
+          "stop" : 1661160685577,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "5b1889670f642344",
+        "parentUid" : "3746e6fa53720cb3f7a70ee7895cf104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160685645,
+          "stop" : 1661160685647,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "638e51841ea28395",
+        "parentUid" : "3746e6fa53720cb3f7a70ee7895cf104",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661160685654,
+          "stop" : 1661160685667,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "e80826262b32a6db",
+        "parentUid" : "3746e6fa53720cb3f7a70ee7895cf104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160685634,
+          "stop" : 1661160685640,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3746e6fa53720cb3f7a70ee7895cf104"
+    }, {
+      "name" : "21484@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "softAssertion",
+        "uid" : "36f2232917d32216",
+        "parentUid" : "3295ddd6d8c6d208b59b371e208374e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661166574431,
+          "stop" : 1661166574450,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AssertJ",
+        "uid" : "92e3ccf5df2755f8",
+        "parentUid" : "3295ddd6d8c6d208b59b371e208374e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661166574187,
+          "stop" : 1661166574300,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "83d55e400755fbba",
+        "parentUid" : "3295ddd6d8c6d208b59b371e208374e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661166574419,
+          "stop" : 1661166574422,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "129c38a787794518",
+        "parentUid" : "3295ddd6d8c6d208b59b371e208374e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661166574397,
+          "stop" : 1661166574410,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3295ddd6d8c6d208b59b371e208374e9"
+    }, {
+      "name" : "792@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "c4ae2205d3abbe6d",
+        "parentUid" : "11cb13033084dad0ab92f5bdbacef65c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661072347496,
+          "stop" : 1661072347874,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11cb13033084dad0ab92f5bdbacef65c"
+    }, {
+      "name" : "10936@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "d3001cb8b8756d3c",
+        "parentUid" : "0209f4b33d9523987fda3a47a6604771",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661098397593,
+          "stop" : 1661098398202,
+          "duration" : 609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0209f4b33d9523987fda3a47a6604771"
+    }, {
+      "name" : "15348@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "aa38c9f5bfd59649",
+        "parentUid" : "46bbac97909b22ef91ec7dbc858b70cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661439181747,
+          "stop" : 1661439184753,
+          "duration" : 3006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46bbac97909b22ef91ec7dbc858b70cb"
+    }, {
+      "name" : "10264@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "fc9974c689d7f129",
+        "parentUid" : "a0074a1326f8fd77ea28fc8b1e62a438",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661250809840,
+          "stop" : 1661250852187,
+          "duration" : 42347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0074a1326f8fd77ea28fc8b1e62a438"
+    }, {
+      "name" : "5420@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "dea0ab545ccd3b3c",
+        "parentUid" : "02781719ed32b576f2b3d1ea8024e951",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660669229319,
+          "stop" : 1660669248865,
+          "duration" : 19546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02781719ed32b576f2b3d1ea8024e951"
+    }, {
+      "name" : "21088@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "arrayMatchTest",
+        "uid" : "ef4907153f65df11",
+        "parentUid" : "0371a6113ece5f17cb683b613bbbe45b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661168657613,
+          "stop" : 1661168657625,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "7a61924dfcf22221",
+        "parentUid" : "0371a6113ece5f17cb683b613bbbe45b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661168657636,
+          "stop" : 1661168657640,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AssertJ",
+        "uid" : "c6b32eafd9992656",
+        "parentUid" : "0371a6113ece5f17cb683b613bbbe45b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661168657303,
+          "stop" : 1661168657469,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "e3be40361d797670",
+        "parentUid" : "0371a6113ece5f17cb683b613bbbe45b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661168657651,
+          "stop" : 1661168657674,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0371a6113ece5f17cb683b613bbbe45b"
+    }, {
+      "name" : "20144@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "beaa7efbf5e98524",
+        "parentUid" : "0690d99cd495cd54e1e1020409077ae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661265141733,
+          "stop" : 1661265156894,
+          "duration" : 15161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0690d99cd495cd54e1e1020409077ae1"
+    }, {
+      "name" : "13048@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "2060736a4c42e536",
+        "parentUid" : "a3f2191923885857993ae60b1e79b722",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661264879267,
+          "stop" : 1661264890579,
+          "duration" : 11312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3f2191923885857993ae60b1e79b722"
+    }, {
+      "name" : "20420@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "79710c99775ad45f",
+        "parentUid" : "11dc8915e13fb161c999600469ef52dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661080913805,
+          "stop" : 1661080913808,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "152ae0274b2e9ce",
+        "parentUid" : "11dc8915e13fb161c999600469ef52dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661080913719,
+          "stop" : 1661080913738,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "7b0dda9408fc6131",
+        "parentUid" : "11dc8915e13fb161c999600469ef52dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661080913814,
+          "stop" : 1661080913825,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11dc8915e13fb161c999600469ef52dd"
+    }, {
+      "name" : "10248@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "2a81c52d8a045038",
+        "parentUid" : "ffefb522357a3c25b5a5c23cd1876924",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661327309166,
+          "stop" : 1661327351959,
+          "duration" : 42793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ffefb522357a3c25b5a5c23cd1876924"
+    }, {
+      "name" : "31404@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "99a3645043be49a2",
+        "parentUid" : "8305ba25607518f3679d368e6abc55ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660657545793,
+          "stop" : 1660657546128,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8305ba25607518f3679d368e6abc55ff"
+    }, {
+      "name" : "15288@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "a9e5985c028909cd",
+        "parentUid" : "09a2ed98e498691c59e37a4263d28a8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661327034802,
+          "stop" : 1661327055970,
+          "duration" : 21168
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "09a2ed98e498691c59e37a4263d28a8d"
+    }, {
+      "name" : "19900@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "90755d6a1c16bae0",
+        "parentUid" : "73aa63739fe19bf8268b0573d009ff1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079605594,
+          "stop" : 1661079605599,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "9484eaa92f0e86a2",
+        "parentUid" : "73aa63739fe19bf8268b0573d009ff1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079605606,
+          "stop" : 1661079605621,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "4890b8a6f4e8c8a7",
+        "parentUid" : "73aa63739fe19bf8268b0573d009ff1a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079605512,
+          "stop" : 1661079605527,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73aa63739fe19bf8268b0573d009ff1a"
+    }, {
+      "name" : "15516@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "87f3bc8105a31e1d",
+        "parentUid" : "250dff859299074055965a3f45863f65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661074148719,
+          "stop" : 1661074148733,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "250dff859299074055965a3f45863f65"
+    }, {
+      "name" : "12120@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "f5be9d997d1dfd6b",
+        "parentUid" : "7b4dede2cb2c8f8e6a0b9cbe8037b7b3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661100839421,
+          "stop" : 1661100839433,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b4dede2cb2c8f8e6a0b9cbe8037b7b3"
+    }, {
+      "name" : "760@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "arrayMatchTest",
+        "uid" : "a18f337e67ece031",
+        "parentUid" : "c7a1fbfe36cff38fa4c64a1e84c5a28f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661175614031,
+          "stop" : 1661175614037,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AssertJ",
+        "uid" : "b38dd0350de2cec7",
+        "parentUid" : "c7a1fbfe36cff38fa4c64a1e84c5a28f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661175613922,
+          "stop" : 1661175613975,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "d96d9d697d551b8",
+        "parentUid" : "c7a1fbfe36cff38fa4c64a1e84c5a28f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661175614043,
+          "stop" : 1661175614045,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "d9b064c0e4df6803",
+        "parentUid" : "c7a1fbfe36cff38fa4c64a1e84c5a28f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661175614050,
+          "stop" : 1661175614060,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7a1fbfe36cff38fa4c64a1e84c5a28f"
+    }, {
+      "name" : "19292@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "e21b3fb67ffde3b0",
+        "parentUid" : "71e3f2ffd832e810b5511ada59ef1a5b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661265191190,
+          "stop" : 1661265316678,
+          "duration" : 125488
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71e3f2ffd832e810b5511ada59ef1a5b"
+    }, {
+      "name" : "1004@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "949f24d144506ab5",
+        "parentUid" : "29b7d0a1b85029c7064f744026382802",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661082678085,
+          "stop" : 1661082678433,
+          "duration" : 348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29b7d0a1b85029c7064f744026382802"
+    }, {
+      "name" : "12812@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "e4cce0d6147c253f",
+        "parentUid" : "d8cbb8d60d642c110b43e803d1d37434",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661251192579,
+          "stop" : 1661251234014,
+          "duration" : 41435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8cbb8d60d642c110b43e803d1d37434"
+    }, {
+      "name" : "2736@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "f7e7c8a5879caa91",
+        "parentUid" : "598be82e35f7b62521a44bda5eeb43d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661072772572,
+          "stop" : 1661072772818,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "598be82e35f7b62521a44bda5eeb43d1"
+    }, {
+      "name" : "19700@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "softAssertion",
+        "uid" : "94d31f4ec671cd1c",
+        "parentUid" : "7fa65b09e8e5bac3ffd8d516ed1a82c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661082405958,
+          "stop" : 1661082405968,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "d8c16d5e7c6133a5",
+        "parentUid" : "7fa65b09e8e5bac3ffd8d516ed1a82c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661082405872,
+          "stop" : 1661082405889,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "6b07cfdf6db3afea",
+        "parentUid" : "7fa65b09e8e5bac3ffd8d516ed1a82c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661082405951,
+          "stop" : 1661082405953,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7fa65b09e8e5bac3ffd8d516ed1a82c2"
+    }, {
+      "name" : "10596@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "f94a94985039254b",
+        "parentUid" : "0ca823822f6f6889561c19ec828790a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661332311981,
+          "stop" : 1661332337935,
+          "duration" : 25954
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ca823822f6f6889561c19ec828790a6"
+    }, {
+      "name" : "30324@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "86c0a6245b0a4691",
+        "parentUid" : "c117d5e4079f37ea2fbb3dabc54167fb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660657632926,
+          "stop" : 1660657633253,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c117d5e4079f37ea2fbb3dabc54167fb"
+    }, {
+      "name" : "26768@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "598ed7dbb43dc478",
+        "parentUid" : "551f9c91aeafb72fcc0944d85fa15255",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660669187279,
+          "stop" : 1660669197356,
+          "duration" : 10077
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "551f9c91aeafb72fcc0944d85fa15255"
+    }, {
+      "name" : "4064@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "a3e9d0e1554ad2fb",
+        "parentUid" : "bc07beba5cd7c9e6ea2f57985d7b488c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661263941625,
+          "stop" : 1661263949409,
+          "duration" : 7784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc07beba5cd7c9e6ea2f57985d7b488c"
+    }, {
+      "name" : "33180@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "6238f24b1472b1e9",
+        "parentUid" : "14a585c3ef7108305cf2e314f5c26c2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660670188585,
+          "stop" : 1660670218103,
+          "duration" : 29518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14a585c3ef7108305cf2e314f5c26c2b"
+    }, {
+      "name" : "2812@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "47f71ad5924b956c",
+        "parentUid" : "10acd5605316468cc2443928a9df9f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661082418573,
+          "stop" : 1661082418575,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "121bb49900d14e2d",
+        "parentUid" : "10acd5605316468cc2443928a9df9f41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661082418491,
+          "stop" : 1661082418510,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "cd53694e1bba54eb",
+        "parentUid" : "10acd5605316468cc2443928a9df9f41",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661082418582,
+          "stop" : 1661082418594,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "10acd5605316468cc2443928a9df9f41"
+    }, {
+      "name" : "13920@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "fe4f6230c8a8c82d",
+        "parentUid" : "7110d94b492dfb57262662e21a4341f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661265603359,
+          "stop" : 1661265651517,
+          "duration" : 48158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7110d94b492dfb57262662e21a4341f7"
+    }, {
+      "name" : "4444@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "AssertJ",
+        "uid" : "19b162d149cb93d2",
+        "parentUid" : "0e46fbf0b93491defb1502d99b2aaa31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661160847488,
+          "stop" : 1661160847556,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "1cce7cbf88cfec2",
+        "parentUid" : "0e46fbf0b93491defb1502d99b2aaa31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160847626,
+          "stop" : 1661160847628,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "275f9307441d1504",
+        "parentUid" : "0e46fbf0b93491defb1502d99b2aaa31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661160847634,
+          "stop" : 1661160847645,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "c3d4506bee649dc1",
+        "parentUid" : "0e46fbf0b93491defb1502d99b2aaa31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160847615,
+          "stop" : 1661160847621,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e46fbf0b93491defb1502d99b2aaa31"
+    }, {
+      "name" : "17316@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "b384e8ffd5a37022",
+        "parentUid" : "c13eca76921bd04e685fa66cc1273be5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661264003046,
+          "stop" : 1661264050337,
+          "duration" : 47291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c13eca76921bd04e685fa66cc1273be5"
+    }, {
+      "name" : "12580@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "6f4711d9219beff6",
+        "parentUid" : "8e880afc9d5cdbb56e305accd5892b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661438776450,
+          "stop" : 1661438779229,
+          "duration" : 2779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e880afc9d5cdbb56e305accd5892b09"
+    }, {
+      "name" : "15096@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "arrayMatchTest",
+        "uid" : "f7433c180158342d",
+        "parentUid" : "1d33bcafaba5269609bd87ff263cf886",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160707753,
+          "stop" : 1661160707759,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AssertJ",
+        "uid" : "bc86b9de070ac3d4",
+        "parentUid" : "1d33bcafaba5269609bd87ff263cf886",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160707646,
+          "stop" : 1661160707701,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "a6587eb931110912",
+        "parentUid" : "1d33bcafaba5269609bd87ff263cf886",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661160707771,
+          "stop" : 1661160707782,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "85089ecca3c63c23",
+        "parentUid" : "1d33bcafaba5269609bd87ff263cf886",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661160707765,
+          "stop" : 1661160707766,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d33bcafaba5269609bd87ff263cf886"
+    }, {
+      "name" : "19944@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "2eedd213be902b2e",
+        "parentUid" : "72925fd49550a19def95457922f08508",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661098336933,
+          "stop" : 1661098337482,
+          "duration" : 549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72925fd49550a19def95457922f08508"
+    }, {
+      "name" : "12624@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "6d8f86b2fb9842ce",
+        "parentUid" : "ec478033ced54b3b4cc040055a82a45a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661104685204,
+          "stop" : 1661104685408,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec478033ced54b3b4cc040055a82a45a"
+    }, {
+      "name" : "9728@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "8f842d1d0cd6b4f7",
+        "parentUid" : "ee7ced0b949ed248c7d25f966f6da43a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079586743,
+          "stop" : 1661079586747,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "3dc1ae5b9c90a5a8",
+        "parentUid" : "ee7ced0b949ed248c7d25f966f6da43a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079586752,
+          "stop" : 1661079586756,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "57e9aec1833c09be",
+        "parentUid" : "ee7ced0b949ed248c7d25f966f6da43a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079586680,
+          "stop" : 1661079586692,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ee7ced0b949ed248c7d25f966f6da43a"
+    }, {
+      "name" : "14108@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "e7cc2dc2229ff65c",
+        "parentUid" : "dbbb49503d4a879c068e93a86258c346",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661333258403,
+          "stop" : 1661333274453,
+          "duration" : 16050
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dbbb49503d4a879c068e93a86258c346"
+    }, {
+      "name" : "18360@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "arrayMatchTest",
+        "uid" : "a6c22bdc24fb2aa2",
+        "parentUid" : "162762b414a5b1c2853767312fbd8fd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079218426,
+          "stop" : 1661079218442,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "651c2fccf8c3fc3c",
+        "parentUid" : "162762b414a5b1c2853767312fbd8fd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661079218506,
+          "stop" : 1661079218510,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "162762b414a5b1c2853767312fbd8fd0"
+    }, {
+      "name" : "8884@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "ec6f3e17eb0d49f9",
+        "parentUid" : "00eb8e2dabe615bdd4a3b9b982fa44fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660739544677,
+          "stop" : 1660739545995,
+          "duration" : 1318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00eb8e2dabe615bdd4a3b9b982fa44fa"
+    }, {
+      "name" : "7516@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "54db8b6648bc1094",
+        "parentUid" : "538d283dd5c3644ae3906250c7b871b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661249328486,
+          "stop" : 1661249365448,
+          "duration" : 36962
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "538d283dd5c3644ae3906250c7b871b6"
+    }, {
+      "name" : "2304@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "fd49f375f97e3272",
+        "parentUid" : "e696dc545bd147b339ef8c0a88adaeb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661263869328,
+          "stop" : 1661263890239,
+          "duration" : 20911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e696dc545bd147b339ef8c0a88adaeb1"
+    }, {
+      "name" : "8916@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "b3112cb99f86b159",
+        "parentUid" : "8612b46de7ebe83c11bb5fbca0642d35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661074497872,
+          "stop" : 1661074497889,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8612b46de7ebe83c11bb5fbca0642d35"
+    }, {
+      "name" : "17700@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "652e0998c84440bb",
+        "parentUid" : "3f5e96569b7e40f89bef4e650b325765",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661438823235,
+          "stop" : 1661438826211,
+          "duration" : 2976
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f5e96569b7e40f89bef4e650b325765"
+    }, {
+      "name" : "14768@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "3a4eb34d8ceb5968",
+        "parentUid" : "d6cdeeadd0d7d22927130a100c0f0ddb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661265383115,
+          "stop" : 1661265452332,
+          "duration" : 69217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d6cdeeadd0d7d22927130a100c0f0ddb"
+    }, {
+      "name" : "20372@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "34de4c1a1b2b611e",
+        "parentUid" : "b7d728273f42ff0ca84362d7ca724e87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660669731734,
+          "stop" : 1660669751280,
+          "duration" : 19546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7d728273f42ff0ca84362d7ca724e87"
+    }, {
+      "name" : "22580@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "d0592f6aaa9ddd9f",
+        "parentUid" : "1edc2cb6ad17e508904a414c9ac657dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661251447439,
+          "stop" : 1661251452973,
+          "duration" : 5534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1edc2cb6ad17e508904a414c9ac657dc"
+    }, {
+      "name" : "24844@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "1220dc4b1a0cc4e4",
+        "parentUid" : "73341d11fb85e9a6b8ae6910f95b17e6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660736912914,
+          "stop" : 1660736940448,
+          "duration" : 27534
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73341d11fb85e9a6b8ae6910f95b17e6"
+    }, {
+      "name" : "12252@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "56447da5d3e5fa95",
+        "parentUid" : "4a7e3e3e1baf6ae7e4e2bc07e293f7c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661439240123,
+          "stop" : 1661439243264,
+          "duration" : 3141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a7e3e3e1baf6ae7e4e2bc07e293f7c1"
+    }, {
+      "name" : "8096@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "arrayMatchTest",
+        "uid" : "48d463e74ee03528",
+        "parentUid" : "5f2b8af6a80945362bea2c7ef060318b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661080461461,
+          "stop" : 1661080461477,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "softAssertion",
+        "uid" : "89e0560482c554b6",
+        "parentUid" : "5f2b8af6a80945362bea2c7ef060318b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661080461552,
+          "stop" : 1661080461566,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "matchTest",
+        "uid" : "8114703b5bee48d6",
+        "parentUid" : "5f2b8af6a80945362bea2c7ef060318b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661080461539,
+          "stop" : 1661080461542,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f2b8af6a80945362bea2c7ef060318b"
+    }, {
+      "name" : "15720@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "3c8534769c9eb82f",
+        "parentUid" : "b3edc7f911d8e2eb714db5b0ebb8d962",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660669070326,
+          "stop" : 1660669092904,
+          "duration" : 22578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3edc7f911d8e2eb714db5b0ebb8d962"
+    }, {
+      "name" : "38596@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "61e6aa28d9f475ff",
+        "parentUid" : "46bae8cc18725c7ef8c7af01288010c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661778840663,
+          "stop" : 1661778843372,
+          "duration" : 2709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "46bae8cc18725c7ef8c7af01288010c1"
+    }, {
+      "name" : "30572@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "1382a20ffcebc11f",
+        "parentUid" : "acdf6712b8d0110b8f019223e6b51ee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661333568524,
+          "stop" : 1661333576926,
+          "duration" : 8402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "acdf6712b8d0110b8f019223e6b51ee9"
+    }, {
+      "name" : "11008@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "a51a3a2bbb8dbd03",
+        "parentUid" : "ecd39c7688d3b560333bcfd941e579ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661072382079,
+          "stop" : 1661072382393,
+          "duration" : 314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecd39c7688d3b560333bcfd941e579ce"
+    }, {
+      "name" : "29836@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "3efe0aea947b83f3",
+        "parentUid" : "bbc12e60b780643a5d82ac51db9124c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661328222160,
+          "stop" : 1661328233418,
+          "duration" : 11258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bbc12e60b780643a5d82ac51db9124c7"
+    }, {
+      "name" : "16476@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "4ae07c9668372ea9",
+        "parentUid" : "0b2fed03799a9076ef5ab85590d01dc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661251476093,
+          "stop" : 1661251482785,
+          "duration" : 6692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b2fed03799a9076ef5ab85590d01dc7"
+    }, {
+      "name" : "22248@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "94329bc9221c8e49",
+        "parentUid" : "65078c7da5cbec2705eebf4d9926b89b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661251064462,
+          "stop" : 1661251070971,
+          "duration" : 6509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65078c7da5cbec2705eebf4d9926b89b"
+    }, {
+      "name" : "14408@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "df524cf0876d2131",
+        "parentUid" : "4a8fc1b33f0c99742164020c80cd5f0e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660736678448,
+          "stop" : 1660736718428,
+          "duration" : 39980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a8fc1b33f0c99742164020c80cd5f0e"
+    }, {
+      "name" : "13012@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "8cfd9fd4d10186ed",
+        "parentUid" : "ae2589f73e98bbf097f75fb84b95e281",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660657591388,
+          "stop" : 1660657591727,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae2589f73e98bbf097f75fb84b95e281"
+    }, {
+      "name" : "8852@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "943828d76253d8bb",
+        "parentUid" : "c9144816b0ab7b52e8bd14d974502ae0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661263808822,
+          "stop" : 1661263830186,
+          "duration" : 21364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9144816b0ab7b52e8bd14d974502ae0"
+    }, {
+      "name" : "5924@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "b0825c70d18dd34f",
+        "parentUid" : "dd7323259491a42d67ce74fdb1fc9ad8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661326852279,
+          "stop" : 1661326860310,
+          "duration" : 8031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dd7323259491a42d67ce74fdb1fc9ad8"
+    }, {
+      "name" : "14868@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "4a71da4c426b2137",
+        "parentUid" : "1d0bc4e3c33b3e04b570b605119cc9bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661265094936,
+          "stop" : 1661265108536,
+          "duration" : 13600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1d0bc4e3c33b3e04b570b605119cc9bd"
+    }, {
+      "name" : "4488@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "f1cb8a6db960bb56",
+        "parentUid" : "c2d03d0adde4960585f1eda3e7854532",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661511498389,
+          "stop" : 1661511509793,
+          "duration" : 11404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2d03d0adde4960585f1eda3e7854532"
+    }, {
+      "name" : "22160@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "c27ae9fbb77dd271",
+        "parentUid" : "8a2ffad99381b152f5fd00f577a904a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661251154970,
+          "stop" : 1661251180628,
+          "duration" : 25658
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a2ffad99381b152f5fd00f577a904a4"
+    }, {
+      "name" : "20440@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "ee5139e9f02232c1",
+        "parentUid" : "fe522cec409c59c7f6b05a6cb06d4ad3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661250670561,
+          "stop" : 1661250715616,
+          "duration" : 45055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe522cec409c59c7f6b05a6cb06d4ad3"
+    }, {
+      "name" : "13840@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "fc33be38c37d64c2",
+        "parentUid" : "ceebf412736575bf462ae4c40dfa44df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661100538666,
+          "stop" : 1661100538831,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ceebf412736575bf462ae4c40dfa44df"
+    }, {
+      "name" : "3308@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "4e65b88df1522169",
+        "parentUid" : "7c2147fe03374388adfebf0b7e9de5b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661332694164,
+          "stop" : 1661332705713,
+          "duration" : 11549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c2147fe03374388adfebf0b7e9de5b1"
+    }, {
+      "name" : "14980@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "7ec118945ec9d221",
+        "parentUid" : "b21bf6e89daeea023380f35251cd8908",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661326878505,
+          "stop" : 1661326914985,
+          "duration" : 36480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b21bf6e89daeea023380f35251cd8908"
+    }, {
+      "name" : "33192@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "1771c98eb392748e",
+        "parentUid" : "5dc5aeace35901d98a78eed77ddc5bd8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660657670001,
+          "stop" : 1660657670363,
+          "duration" : 362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5dc5aeace35901d98a78eed77ddc5bd8"
+    }, {
+      "name" : "4004@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "ae6532342f30aace",
+        "parentUid" : "060e96d8765b37070b169131af969203",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661251789176,
+          "stop" : 1661251863248,
+          "duration" : 74072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "060e96d8765b37070b169131af969203"
+    }, {
+      "name" : "15660@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "a57062e7f6a9594f",
+        "parentUid" : "ca82d8310d569f09a37ee5e0d6505ea4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661083223228,
+          "stop" : 1661083223269,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca82d8310d569f09a37ee5e0d6505ea4"
+    }, {
+      "name" : "20204@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "5c74d4b5f1a24547",
+        "parentUid" : "00f9632f59d8f2c250a34402b260c3c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661332585568,
+          "stop" : 1661332599441,
+          "duration" : 13873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "00f9632f59d8f2c250a34402b260c3c0"
+    }, {
+      "name" : "19552@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "68515c512d2f3a7c",
+        "parentUid" : "0c9430bf08d5d3a1e3dd122fa9081d92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661078931361,
+          "stop" : 1661078931365,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "arrayMatchTest",
+        "uid" : "2132b471eea5fc3b",
+        "parentUid" : "0c9430bf08d5d3a1e3dd122fa9081d92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661078931278,
+          "stop" : 1661078931294,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c9430bf08d5d3a1e3dd122fa9081d92"
+    }, {
+      "name" : "30280@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "b352e1dd77f6043d",
+        "parentUid" : "82d88e123b994475a1f78b8b7d322cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661778576237,
+          "stop" : 1661778579535,
+          "duration" : 3298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82d88e123b994475a1f78b8b7d322cec"
+    }, {
+      "name" : "19276@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "8d0449ac92a67ef3",
+        "parentUid" : "07e4f73a31dc91d7ca9bd6ce80e055ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661251771673,
+          "stop" : 1661251776292,
+          "duration" : 4619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07e4f73a31dc91d7ca9bd6ce80e055ff"
+    }, {
+      "name" : "12848@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "a664bdf60e7418d5",
+        "parentUid" : "50ac9202da68dac6369c9edf0be01942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661100892689,
+          "stop" : 1661100892933,
+          "duration" : 244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50ac9202da68dac6369c9edf0be01942"
+    }, {
+      "name" : "33040@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "8f3e493dedc0ee29",
+        "parentUid" : "ca0d2ba07db47e59732c47dda698e273",
+        "status" : "broken",
+        "time" : {
+          "start" : 1660661250461,
+          "stop" : 1660661276724,
+          "duration" : 26263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca0d2ba07db47e59732c47dda698e273"
+    }, {
+      "name" : "2884@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "32a62c50466874d2",
+        "parentUid" : "3e7ebe84d929c16b1d7b4ddfde179d53",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661100800665,
+          "stop" : 1661100800678,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e7ebe84d929c16b1d7b4ddfde179d53"
+    }, {
+      "name" : "12276@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "open_test",
+        "uid" : "fac009b7e3593d54",
+        "parentUid" : "d4f6820907dda1960e3ff55414bb195b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661100432371,
+          "stop" : 1661100432389,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4f6820907dda1960e3ff55414bb195b"
+    }, {
+      "name" : "26392@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "726363fa37be70e8",
+        "parentUid" : "01c8ba9e80aed743d622e180d108202a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660657827650,
+          "stop" : 1660657828063,
+          "duration" : 413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01c8ba9e80aed743d622e180d108202a"
+    }, {
+      "name" : "18652@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "2398a6bad6178c2",
+        "parentUid" : "1bf7fead2b1829b137ba038514660a03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661072371582,
+          "stop" : 1661072371883,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bf7fead2b1829b137ba038514660a03"
+    }, {
+      "name" : "30072@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "6de5300fa06c87f9",
+        "parentUid" : "b26ddddf4ec09ed14f1d7c7f98dc486a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660669580796,
+          "stop" : 1660669598397,
+          "duration" : 17601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b26ddddf4ec09ed14f1d7c7f98dc486a"
+    }, {
+      "name" : "17428@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "d6d82d0c6732eb4c",
+        "parentUid" : "d409c1fb4754bbf5c005f50559526ca0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661327130472,
+          "stop" : 1661327213819,
+          "duration" : 83347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d409c1fb4754bbf5c005f50559526ca0"
+    }, {
+      "name" : "8972@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "4b5238ed1af7b85e",
+        "parentUid" : "6ee64fd37022024707852cb5e398f0bb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660669799232,
+          "stop" : 1660669826185,
+          "duration" : 26953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ee64fd37022024707852cb5e398f0bb"
+    }, {
+      "name" : "17964@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "5dd03192424e21eb",
+        "parentUid" : "2fe00d91e9f75de5cc81ccf27e053ba2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661249293228,
+          "stop" : 1661249303989,
+          "duration" : 10761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fe00d91e9f75de5cc81ccf27e053ba2"
+    }, {
+      "name" : "9552@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "bfce39604fc516a6",
+        "parentUid" : "f006f8dffab202d7f16a7331f7c03108",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661265478134,
+          "stop" : 1661265568711,
+          "duration" : 90577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f006f8dffab202d7f16a7331f7c03108"
+    }, {
+      "name" : "17196@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "56f04d2b6c9e041c",
+        "parentUid" : "9fab0143d2401b6ad91cc7f224d63855",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661511558339,
+          "stop" : 1661511566287,
+          "duration" : 7948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fab0143d2401b6ad91cc7f224d63855"
+    }, {
+      "name" : "1144@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "8daed43add34e691",
+        "parentUid" : "6e1be5dece34dfcaeaae8191513e2f91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660739626538,
+          "stop" : 1660739652645,
+          "duration" : 26107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e1be5dece34dfcaeaae8191513e2f91"
+    }, {
+      "name" : "17824@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "6afd91a6a4601413",
+        "parentUid" : "304a5c3fb039dd135cf3d81be4dc51d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661265042329,
+          "stop" : 1661265065013,
+          "duration" : 22684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "304a5c3fb039dd135cf3d81be4dc51d4"
+    }, {
+      "name" : "5304@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "a49004f872e211c4",
+        "parentUid" : "9698c054f84944242ffd5d887634c101",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661263634588,
+          "stop" : 1661263704111,
+          "duration" : 69523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9698c054f84944242ffd5d887634c101"
+    }, {
+      "name" : "13016@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "e9823f7d898d8a88",
+        "parentUid" : "74be91d244dd89add07a4695a1b35d6a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661099891468,
+          "stop" : 1661099894242,
+          "duration" : 2774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74be91d244dd89add07a4695a1b35d6a"
+    }, {
+      "name" : "8148@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "ee9b08a1f33d396d",
+        "parentUid" : "aa63307608c55579061be17c3cf9f536",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661264067182,
+          "stop" : 1661264145129,
+          "duration" : 77947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa63307608c55579061be17c3cf9f536"
+    }, {
+      "name" : "29448@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "2f8a85201af6dc6d",
+        "parentUid" : "5b7872539e0f98b310f404a91dd4d914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661001581253,
+          "stop" : 1661001602053,
+          "duration" : 20800
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b7872539e0f98b310f404a91dd4d914"
+    }, {
+      "name" : "2604@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "5a921060860eccea",
+        "parentUid" : "74b7eb045afbc52f652547a85b1513a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661437778228,
+          "stop" : 1661437778989,
+          "duration" : 761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "74b7eb045afbc52f652547a85b1513a7"
+    }, {
+      "name" : "1860@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "355d2d2d974b023c",
+        "parentUid" : "f5f4fde2f084baaf8b2b308dec5bb514",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660657865112,
+          "stop" : 1660657865538,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f5f4fde2f084baaf8b2b308dec5bb514"
+    }, {
+      "name" : "16472@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "532aea5d56e5516c",
+        "parentUid" : "64ace0c04f2c372efa9605664dbe519e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661098298144,
+          "stop" : 1661098298628,
+          "duration" : 484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "64ace0c04f2c372efa9605664dbe519e"
+    }, {
+      "name" : "20260@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "c998c9a850b95d59",
+        "parentUid" : "87aa3046d3e51b20be01dfe23d5e72e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660739363959,
+          "stop" : 1660739383403,
+          "duration" : 19444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87aa3046d3e51b20be01dfe23d5e72e7"
+    }, {
+      "name" : "8608@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "3f74cd1c22f93f18",
+        "parentUid" : "78557c968fb4e225a23dc27e7f3788da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661264524137,
+          "stop" : 1661264531388,
+          "duration" : 7251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "78557c968fb4e225a23dc27e7f3788da"
+    }, {
+      "name" : "1664@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "matchTest",
+        "uid" : "55b2de0008f42414",
+        "parentUid" : "0e28a7b3e66cd523d85e5fc42986def8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661074549989,
+          "stop" : 1661074549999,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e28a7b3e66cd523d85e5fc42986def8"
+    }, {
+      "name" : "17156@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "2cf0e58f0ed096b0",
+        "parentUid" : "70f6bc7d595f866a0554e51c43713d84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661251104281,
+          "stop" : 1661251110902,
+          "duration" : 6621
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70f6bc7d595f866a0554e51c43713d84"
+    }, {
+      "name" : "23592@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "4b94e15472aec88e",
+        "parentUid" : "bb5f28c26cf01f87016e47889aae1fc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661264964391,
+          "stop" : 1661264976176,
+          "duration" : 11785
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb5f28c26cf01f87016e47889aae1fc6"
+    }, {
+      "name" : "21876@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "8b454640c4b05540",
+        "parentUid" : "58ef3293b6360e8628f5fa0a36bc43a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1660657785323,
+          "stop" : 1660657785677,
+          "duration" : 354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58ef3293b6360e8628f5fa0a36bc43a0"
+    }, {
+      "name" : "5748@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "19af0e4a45dc8b79",
+        "parentUid" : "ec25681a1e444dd4facbd8a4b5321a68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661437858267,
+          "stop" : 1661437860799,
+          "duration" : 2532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec25681a1e444dd4facbd8a4b5321a68"
+    }, {
+      "name" : "16336@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "1829c1f208def212",
+        "parentUid" : "12bb11319a64a68bb5ec7b851fd8d248",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661511532105,
+          "stop" : 1661511541562,
+          "duration" : 9457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "12bb11319a64a68bb5ec7b851fd8d248"
+    }, {
+      "name" : "11524@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "11be1ceb8ee286c0",
+        "parentUid" : "b248356996463bfbba8f1af1bfb26f5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660670344933,
+          "stop" : 1660670364327,
+          "duration" : 19394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b248356996463bfbba8f1af1bfb26f5b"
+    }, {
+      "name" : "17940@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "login with valid credentials ",
+        "uid" : "bdb4ac81a5eeb40b",
+        "parentUid" : "c6c278ccde5ff4dff3a18dd00a7631da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661438414129,
+          "stop" : 1661438417341,
+          "duration" : 3212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c6c278ccde5ff4dff3a18dd00a7631da"
+    }, {
+      "name" : "10104@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "testLazyLoading",
+        "uid" : "4a8cb0594482f7a7",
+        "parentUid" : "1177068d2482ace8bce59390cc1ab900",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661264368171,
+          "stop" : 1661264392917,
+          "duration" : 24746
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1177068d2482ace8bce59390cc1ab900"
+    }, {
+      "name" : "10488@LPCAIQ0797.main(1)",
+      "children" : [ {
+        "name" : "verificationTest",
+        "uid" : "a6d2c180a7867a4a",
+        "parentUid" : "006d23311f50f6add597147b0aea7b03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1660659929274,
+          "stop" : 1660659960305,
+          "duration" : 31031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "006d23311f50f6add597147b0aea7b03"
+    } ],
+    "uid" : "4b4a8dce6511dd33e70a25c4a1823a7e"
+  } ]
+}
