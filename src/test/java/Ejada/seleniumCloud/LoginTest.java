@@ -7,6 +7,9 @@ package Ejada.seleniumCloud;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -28,8 +31,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LoginTest {
 	public static WebDriver driver;
 	public static Logger log = LogManager.getLogger();
-	
-	
+	private ExtentHtmlReporter htmlReporter ;
+
+
 	@BeforeMethod
 	public void SetUp() {
 
@@ -52,7 +56,18 @@ public class LoginTest {
 	
 	@Test(description="login with valid credentials ")
 	public void loginValidInput() throws InterruptedException {
-		
+		htmlReporter = new ExtentHtmlReporter("extent.html");
+		htmlReporter.config().setDocumentTitle("simple automation report");
+		htmlReporter.config().setReportName("automation test");
+		ExtentReports extent = new ExtentReports();
+
+		// attach only HtmlReporter
+		extent.attachReporter(htmlReporter);
+		ExtentTest test=extent.createTest("Login with valid credentials");
+
+
+		// assert or check the JavaScript for beginners is visible
+
 		WebElement user=driver.findElement(By.cssSelector("input#user-name"));
 		driver.findElement(By.cssSelector("input#user-name")).sendKeys("standard_user");
 		  Shutterbug.shootPage(driver,Capture.FULL)
@@ -60,13 +75,14 @@ public class LoginTest {
 
 		  
 		driver.findElement(By.cssSelector("input#password")).sendKeys("secret_sauce"+Keys.RETURN);
+		test.pass("click on login button");
 		/* Not a good programming practice, added for demonstration */
 		//Thread.sleep(3000);
 		// assert or check the JavaScript for beginners is visible 
 		String pageHeader=driver.findElement(By.cssSelector("span.title")).getText();
 		Assert.assertEquals("PRODUCTS", pageHeader);
 		Shutterbug.shootPage(driver, Capture.FULL_SCROLL).save();
-
+		extent.flush();
 	      
 		
 	}
