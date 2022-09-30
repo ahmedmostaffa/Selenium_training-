@@ -1,0 +1,16 @@
+Ejada\seleniumCloud\Setup.class
+Ejada\seleniumCloud\ContnetMatchLevel.class
+Ejada\seleniumCloud\DynamicPage.class
+Ejada\seleniumCloud\FakeData.class
+Ejada\seleniumCloud\DemoApplitools.class
+Ejada\seleniumCloud\LoginTest.class
+listeners\ExtentReporterNG.class
+Ejada\seleniumCloud\Test_1.class
+Ejada\seleniumCloud\TestLazyLoading.class
+ElementActions\BrowserActions.class
+base\BaseTest.class
+Ejada\seleniumCloud\LazyLoading.class
+Ejada\seleniumCloud\practice.class
+Ejada\seleniumCloud\Tutorial.class
+base\SingletonDriver.class
+Ejada\seleniumCloud\AllureReport.class
