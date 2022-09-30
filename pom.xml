@@ -168,7 +168,7 @@
 
 						<systemPropertyVariables>
 							<propertyName>
-								<!--${headless} -->
+								${browser}
 							</propertyName>
 						</systemPropertyVariables>
 					</configuration>

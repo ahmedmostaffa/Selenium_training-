@@ -33,15 +33,14 @@ public class LoginTest {
 	public static Logger log = LogManager.getLogger();
 	private ExtentHtmlReporter htmlReporter ;
 
-
+	@Parameters({"browser"})
 	@BeforeMethod
-	public void SetUp() {
+	public void SetUp(String browser) {
 
 			WebDriverManager.chromedriver().setup();
 			log.info("initialize chrome driver");
 			log.warn("dadad");
-			log.info("Run tests in '"+System.getProperty("browserGlobal")+"'");
-			
+			log.info("Run tests in "+" "+browser);
 			driver= new ChromeDriver();
 		
 		
