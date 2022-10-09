@@ -38,7 +38,6 @@ public class BaseTest {
 		
 		// layout level dynamic contnet
 		driver.get("https://the-internet.herokuapp.com/dynamic_content");
-		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 	}
