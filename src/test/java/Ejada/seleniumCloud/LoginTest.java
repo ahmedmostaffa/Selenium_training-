@@ -27,7 +27,7 @@ import com.assertthat.selenium_shutterbug.core.Capture;
 import com.assertthat.selenium_shutterbug.core.Shutterbug;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+@Listeners({AllureReporterNG.class})
 public class LoginTest {
 	public static WebDriver driver;
 	public static Logger log = LogManager.getLogger();
