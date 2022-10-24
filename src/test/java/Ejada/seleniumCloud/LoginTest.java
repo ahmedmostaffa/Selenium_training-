@@ -42,6 +42,7 @@ public class LoginTest {
 			log.warn("dadad");
 			log.info("Run tests in "+" "+browser);
 			driver= new ChromeDriver();
+		System.out.println(System.getProperty("user.dir"));
 		
 		
 		
